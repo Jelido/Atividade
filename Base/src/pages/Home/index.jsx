@@ -7,7 +7,7 @@ export function Home(){
         
         <Main />
         
-        {/* <Footer /> */}
+        <Footer />
 
         </>
     )
