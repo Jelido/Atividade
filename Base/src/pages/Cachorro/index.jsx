@@ -1,36 +1,36 @@
 
-import { Container, DivBotao, Botao } from './style'
+import { Container, DivBotao, Botao,VideoContainer, VideoFrame } from './style'
 import { Link } from 'react-router-dom'
 
 export function Cachorro() {
   return (
     <>
-      <Container>
-        <iframe
-        width="560"
-        height="315"
+  <Container>
+    <VideoContainer>
+      <VideoFrame
         src="https://www.youtube.com/embed/Vsvf-MgxMew"
         frameBorder="0"
         allowFullScreen
-      ></iframe>
+      ></VideoFrame>
+    </VideoContainer>
 
-        <iframe
-        width="560"
-        height="315"
+    <VideoContainer>
+      <VideoFrame
         src="https://www.youtube.com/embed/m9BAW6Zby98"
         title="YouTube video player"
         frameBorder="0"
         allowFullScreen
-      ></iframe>
-      </Container>
+      ></VideoFrame>
+    </VideoContainer>
+  </Container>
       
-      <DivBotao>
+    <DivBotao>
         
       <Link to="/">
       <Botao>Voltar</Botao>
       </Link>
 
-      </DivBotao>
+    </DivBotao>
     </>
   )
 }

@@ -20,7 +20,7 @@ export const DivBotao = styled.div`
 
 export const Botao = styled.button`
   background-color: #e50914;
-  color: white;
+  color: gray;
   font-size: 16px;
   padding: 10px 20px;
   cursor: pointer;
@@ -32,9 +32,14 @@ export const Botao = styled.button`
     background-color: #9f050c;
   }
 `
-
-export const Paragrafo = styled.h1`
-  color: white;
+export const VideoContainer = styled.div`
+    width: 560px;
+    height: 315px;
+    margin: 0;
 `
-
+export const VideoFrame = styled.iframe`
+    width: 100%;
+    height: 100%;
+    border: 0;
+`
 

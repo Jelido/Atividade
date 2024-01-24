@@ -1,26 +1,29 @@
 
-import { Container, DivBotao, Botao } from './style'
+import { Container, DivBotao, Botao, VideoContainer, VideoFrame } from './style'
 import { Link } from 'react-router-dom'
 
 export function Gato() {
   return (
     <>
       <Container>
-      <iframe
-        width="560"
-        height="315"
+      <Container>
+    <VideoContainer>
+      <VideoFrame
         src="https://www.youtube.com/embed/dFO9tc9Za9g"
         frameBorder="0"
         allowFullScreen
-      ></iframe>
+      ></VideoFrame>
+    </VideoContainer>
 
-        <iframe
-        width="560"
-        height="315"
+    <VideoContainer>
+      <VideoFrame
         src="https://www.youtube.com/embed/umqFOANbKOY"
+        title="YouTube video player"
         frameBorder="0"
         allowFullScreen
-      ></iframe>
+      ></VideoFrame>
+    </VideoContainer>
+  </Container>
 
       </Container>
     

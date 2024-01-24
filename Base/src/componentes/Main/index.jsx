@@ -16,13 +16,13 @@ export function Main() {
                     <Link to="/cachorro">
                     <img src="cachorroburro.jpg" alt="Cachorro" />
                     </Link>
-                    <Nomes>CachorroBurro</Nomes>
+                    <Nomes>Cachorro</Nomes>
                 </div>
                 <div>
                     <Link to="/gato">
                     <img src="gatoburro.jpg" alt="Gato" />
                     </Link>
-                    <Nomes>GatoBurro</Nomes>
+                    <Nomes>Gato</Nomes>
                 </div>
             </ContainerBaixo>
         </>

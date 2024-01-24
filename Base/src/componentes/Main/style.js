@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Paragrafo = styled.h1`
     color: red;
@@ -10,7 +10,7 @@ export const Paragrafo = styled.h1`
 `
 
 export const Nomes = styled.h1`
-    color: white;
+    color: gray;
     font-size: 24px;
     margin-left: 65px;
     font-family: 'Netflix Sans', sans-serif;
@@ -55,5 +55,10 @@ export const ContainerBaixo = styled.div`
         width: 200px;
         height: 170px;
         border-radius: 8px;
+
+        &:hover {
+            border: 2px solid white;
+        }
+
     }
 `

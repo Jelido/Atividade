@@ -32,3 +32,13 @@ export const Botao = styled.button`
     background-color: #9f050c;
   }
 `
+export const VideoContainer = styled.div`
+    width: 560px;
+    height: 315px;
+    margin: 0;
+`
+export const VideoFrame = styled.iframe`
+    width: 100%;
+    height: 100%;
+    border: 0;
+`
