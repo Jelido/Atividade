@@ -14,6 +14,13 @@ export function Gato() {
         allowFullScreen
       ></VideoFrame>
     </VideoContainer>
+    <VideoContainer>
+      <VideoFrame
+        src="https://www.youtube.com/embed/Drxe_Bjv1eU"
+        frameBorder="0"
+        allowFullScreen
+      ></VideoFrame>
+    </VideoContainer>
 
     <VideoContainer>
       <VideoFrame

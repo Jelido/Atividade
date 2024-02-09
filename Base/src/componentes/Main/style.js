@@ -10,7 +10,7 @@ export const Paragrafo = styled.h1`
 `
 
 export const Nomes = styled.h1`
-    color: gray;
+    color: white;
     font-size: 24px;
     margin-left: 65px;
     font-family: 'Netflix Sans', sans-serif;
@@ -58,6 +58,8 @@ export const ContainerBaixo = styled.div`
 
         &:hover {
             border: 2px solid white;
+            width: 220px;
+            height: 190px;
         }
 
     }
