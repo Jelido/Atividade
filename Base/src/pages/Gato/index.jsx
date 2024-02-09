@@ -10,14 +10,14 @@ export function Gato() {
     <VideoContainer>
       <VideoFrame
         src="https://www.youtube.com/embed/dFO9tc9Za9g"
-        frameBorder="0"
+        
         allowFullScreen
       ></VideoFrame>
     </VideoContainer>
     <VideoContainer>
       <VideoFrame
         src="https://www.youtube.com/embed/Drxe_Bjv1eU"
-        frameBorder="0"
+        
         allowFullScreen
       ></VideoFrame>
     </VideoContainer>
@@ -26,7 +26,7 @@ export function Gato() {
       <VideoFrame
         src="https://www.youtube.com/embed/umqFOANbKOY"
         title="YouTube video player"
-        frameBorder="0"
+        
         allowFullScreen
       ></VideoFrame>
     </VideoContainer>

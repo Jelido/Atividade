@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
+export const ContainerBaixo = styled.div`
   background-color: black;
   width: 100%;
   height: 90vh;
@@ -8,6 +8,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: space-around;
 `
+
 
 export const DivBotao = styled.div`
   background-color: black;
